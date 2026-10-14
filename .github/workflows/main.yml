@@ -1,0 +1,14 @@
+name: Disable action workflow
+
+on:
+  push:
+    branches: [ main ]
+    
+jobs:
+  disable:
+      runs-on: ubuntu-latest
+
+      steps:
+        - name: Prabhat
+          run: echo "Disable action workflow devops"
+        
